@@ -1,1 +1,3 @@
-# human_value_identification
+# Human Value Identification Project
+This project focuses on the implementation of a BERT-based model to address the multi-label classification task of detecting human values in textual arguments. Utilizing the dataset from the "Human Value Detection 2023" challenge, our approach involves fine-tuning a RoBERTa-based model to classify arguments into categories derived from social science literature. Three models were developed, considering different parts of the arguments: conclusion, premise, and stance. The best model achieved a macro F1-score of **0.746**, demonstrating that incorporating the premise significantly enhances performance. This repository contains all the necessary code and documentation to reproduce our experiments and results.
+Additional information regarding the results obtained and the specifications on the techniques used can be found in the file `human_value_identification_report.pdf`
